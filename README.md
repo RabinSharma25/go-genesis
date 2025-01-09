@@ -5,7 +5,7 @@
 - **Generate Go Models**: Automatically generate Go structs with the necessary struct tags.
 - **Seed the Database**: Populate your database using code-generated data.
 
----
+
 
 ## **Advantages**
 
@@ -17,13 +17,13 @@ Using Go Genesis comes with several benefits:
 2. **Automatic Priority Calculation**  
    The library calculates the priority order of tables for insertion, handling foreign key constraints seamlessly.
 
----
+
 
 ## **Problem Statement**
 
 Seeding a database in a development environment is often a challenging task. Manually inserting rows becomes tedious, especially when dealing with complex foreign key constraints.
 
----
+
 
 ## **Solution Strategy**
 
@@ -45,6 +45,6 @@ Go Genesis addresses this issue by automating the procedural aspects of database
    - Read the column types of the database schema.
    - Construct and insert the seed data dynamically, without relying on pre-existing seed files.
 
----
+
 
 By following these steps, **Go Genesis** automates the tedious task of database seeding, making the development process more efficient and error-free.
